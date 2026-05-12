@@ -33,6 +33,16 @@ thinking.md
 README.md
 test_webhook.py
 ```
+## 🌐 Live Deployment
+
+Base URL:
+https://nistula-api.onrender.com
+
+Swagger API Docs:
+https://nistula-api.onrender.com/docs
+
+Health Endpoint:
+https://nistula-api.onrender.com/health
 
 ## 🚀 Getting Started
 
