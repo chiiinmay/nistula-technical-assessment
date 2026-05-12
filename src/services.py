@@ -6,8 +6,8 @@ from .models import NormalizedMessage, QueryType, ActionType, WebhookResponse
 
 load_dotenv()
 
-CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-MODEL_NAME = os.getenv("MODEL_NAME", "claude-sonnet-4-20250514")
+CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "").strip()
+MODEL_NAME = os.getenv("MODEL_NAME", "claude-sonnet-4-20250514").strip()
 
 PROPERTY_CONTEXT = """
 Property: Villa B1, Assagao, North Goa
