@@ -19,6 +19,21 @@ The system is built on a **Modular Service Architecture**:
 
 ---
 
+## 📂 Repository Structure
+
+```text
+src/
+├── main.py
+├── models.py
+├── services.py
+├── classifier.py
+
+schema.sql
+thinking.md
+README.md
+test_webhook.py
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
