@@ -95,6 +95,17 @@ Once the server is running:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - Health Check: `http://127.0.0.1:8000/health`
 
+  ## ✅ Validation & Error Handling Tests
+
+The system was tested against multiple edge cases:
+
+| Test Case | Expected Result |
+|---|---|
+| Invalid source channel | 422 validation error |
+| Empty message | 400 bad request |
+| Claude API failure | Graceful fallback + escalation |
+| Complaint message | Escalation workflow triggered |
+
 ---
 
 ## 🛠️ Error Handling & Robustness
