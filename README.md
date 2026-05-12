@@ -88,6 +88,13 @@ The included `schema.sql` follows a **Unified Identity** approach:
 - **Workflow Auditing**: Every message tracks its "Handling Path" (AI-drafted vs. Agent-edited) to monitor automation ROI.
 - **Extensibility**: The schema is designed to scale from a single villa to a global portfolio of properties.
 
+  ## 📘 Interactive API Documentation
+
+Once the server is running:
+
+- Swagger UI: `http://127.0.0.1:8000/docs`
+- Health Check: `http://127.0.0.1:8000/health`
+
 ---
 
 ## 🛠️ Error Handling & Robustness
