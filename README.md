@@ -14,7 +14,7 @@ The system is built on a **Modular Service Architecture**:
 
 1.  **Webhook Gateway**: A FastAPI-based endpoint that receives and validates payloads using Pydantic.
 2.  **Normalization Layer**: Maps multi-channel data (WhatsApp, Airbnb, Booking.com) into a unified internal schema.
-3.  **Intelligence Engine**: Integrates with Claude 3.5 Sonnet to process guest intent against property-specific context.
+3.  **Intelligence Engine**: Intelligence Engine: Integrates with Claude Sonnet 4 (`claude-sonnet-4-20250514`) to process guest intent against property-specific context.
 4.  **Action Orchestrator**: Determines the message lifecycle (`auto_send`, `agent_review`, or `escalate`) based on confidence thresholds and intent classification.
 
 ---
